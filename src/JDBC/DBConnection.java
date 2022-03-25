@@ -11,12 +11,12 @@ public class DBConnection {
 		Connection con = null;
 
 		// DB에 접속할 계정정보
-		String user = "SUYEON";
-		String password = "1111";
+		String user = "";
+		String password = "";
 
 		// DB에 접속할 주소정보
-		String url = "jdbc:oracle:thin:@localhost:1521:XE";
-		// String url = "jdbc:oracle:thin:@내부아이피:1521:XE";
+		String url = "jdbc:oracle:thin:";
+		// String url = "jdbc:oracle:thin:@내부아이피";
 	
 
 		try {
